@@ -1,0 +1,121 @@
+.content-box{
+    display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   padding: 20px;
+   max-height: 270px;
+   height: auto;
+   box-shadow: 0 0 8px 0 rgba(48, 244, 41, 0.54), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: #101923;
+}
+
+input, select{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: #a0b369; 
+    color: #08100c;
+    width: 100%;
+  
+ }
+
+#limpa{
+    background-color: #a0b369; 
+   color: #08100c;
+   width: 100px;
+   height: 30px;
+   border: none;
+   border-radius: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   cursor: pointer;
+}
+
+#bet-list{
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 20px;
+
+    
+}
+
+#list-box{
+    width: 520px;
+    max-width: 520px;
+    
+}
+
+#list-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #13772045;
+    padding-bottom: 15px;
+}
+
+#stats-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    align-items: center;
+}
+
+#stats-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#stats-itens span{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #08100c;
+}
+
+#stats-box h4{
+
+    border-bottom: 1px solid  #13772045;
+    padding-bottom: 21px;
+    text-align: left;
+}
+
+
+#stats-box p{
+    color: #fff;
+}
+
+#banco{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 40px;
+    width: fit-content;
+    
+}
+
+#form-tittle{
+    border-bottom: 1px solid  #13772045; 
+    padding-bottom: 15px ;
+    margin-top: 8px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+ }
+

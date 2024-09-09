@@ -1,0 +1,55 @@
+*{
+    font-family: tahoma;
+    font-size: 14px;
+
+}
+
+body{
+    background-color: #08100c;
+    max-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h4{
+    color: #a0b369;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    
+}
+
+li{
+    padding-top: 5px;
+    border-bottom: 1px solid #8989896c;
+}
+
+span{
+    font-size: 16px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#profile-card img{
+    width: 60px;
+    border-radius: 5px;
+}
+
+#user-name{
+    color: #a0b369;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+form{
+    width: 150px;
+}
